@@ -6,9 +6,14 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #output {
-  padding: 20px;
-  text-align: center;
+  text-align: start;
+  height: calc(100vh - 20px);
+  width: calc(100vw - 20px);
 }

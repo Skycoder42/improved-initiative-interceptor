@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "dart",
+			"command": "dart",
+			"cwd": "",
+			"args": [
+				"run",
+				"webdev",
+				"serve"
+			],
+			"problemMatcher": [],
+			"label": "dart: dart run webdev serve",
+			"detail": "",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
