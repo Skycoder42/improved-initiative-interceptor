@@ -16,7 +16,7 @@ jobs:
     name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: dart-lang/setup-dart@v1.3
+      - uses: dart-lang/setup-dart@v1.4
       - uses: actions/checkout@v4
       - run: dart pub get
       - run: dart analyze --fatal-infos
