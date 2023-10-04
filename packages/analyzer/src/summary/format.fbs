@@ -58,6 +58,11 @@ enum IndexRelationKind : byte {
   /// Right: other class declaration.
   IS_IMPLEMENTED_BY,
 
+  /// Left: an interface element.
+  ///   Constrains.
+  /// Right: mixin.
+  CONSTRAINS,
+
   /// Left: class.
   ///   Is mixed into.
   /// Right: other class declaration.
@@ -207,6 +212,10 @@ table AnalysisDriverUnitError {
 
 /// Information about a resolved unit.
 table AnalysisDriverUnitIndex {
+  /// Each item of this list corresponds to a unique referenced element. It is
+  /// a list of the prefixes associated with references to the element.
+  elementImportPrefixes:[string] (id: 20);
+
   /// Each item of this list corresponds to a unique referenced element.  It is
   /// the kind of the synthetic element.
   elementKinds:[IndexSyntheticElementKind] (id: 4);
@@ -403,10 +412,7 @@ table AvailableFileExportCombinator {
 
 /// Errors for a single unit.
 table CiderUnitErrors {
-  errors:[AnalysisDriverUnitError] (id: 1);
-
-  /// The hash signature of this data.
-  signature:[uint] (id: 0);
+  errors:[AnalysisDriverUnitError] (id: 0);
 }
 
 table DiagnosticMessage {
@@ -436,12 +442,6 @@ table DirectiveInfo {
   templateValues:[string] (id: 1);
 }
 
-/// Summary information about a package.
-table PackageBundle {
-  /// The version 2 of the summary.
-  fake:uint (id: 0);
-}
+root_type AnalysisDriverResolvedUnit;
 
-root_type PackageBundle;
-
-file_identifier "PBdl";
+file_identifier "ADRU";
