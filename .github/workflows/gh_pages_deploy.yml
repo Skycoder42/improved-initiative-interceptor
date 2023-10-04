@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: dart-lang/setup-dart@v1.3
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - run: dart pub get
       - run: dart analyze --fatal-infos
       - run: dart format -onone --set-exit-if-changed $(git ls-files '*.dart')
