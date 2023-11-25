@@ -39,7 +39,6 @@ dds_service_extensions:packages/dds_service_extensions/
 devtools_shared:packages/devtools_shared/
 dotenv:packages/dotenv/
 dwds:packages/dwds/
-extension_discovery:packages/extension_discovery/
 file:packages/file/
 fixnum:packages/fixnum/
 freezed_annotation:packages/freezed_annotation/
@@ -101,7 +100,6 @@ usage:packages/usage/
 uuid:packages/uuid/
 version_manipulation:packages/version_manipulation/
 vm_service:packages/vm_service/
-vm_service_interface:packages/vm_service_interface/
 watcher:packages/watcher/
 web_socket_channel:packages/web_socket_channel/
 webdev:packages/webdev/
