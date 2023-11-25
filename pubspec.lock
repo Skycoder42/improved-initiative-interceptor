@@ -229,10 +229,10 @@ packages:
     dependency: transitive
     description:
       name: coverage
-      sha256: "595a29b55ce82d53398e1bcc2cba525d7bd7c59faeb2d2540e9d42c390cfeeeb"
+      sha256: ac86d3abab0f165e4b8f561280ff4e066bceaac83c424dd19f1ae2c2fcd12ca9
       url: "https://pub.dev"
     source: hosted
-    version: "1.6.4"
+    version: "1.7.1"
   crypto:
     dependency: transitive
     description:
@@ -293,26 +293,26 @@ packages:
     dependency: transitive
     description:
       name: dds
-      sha256: "9dfac7a369772ee17bb53efc468edd8951d8af56d75d05d43f2d51ba99fc9ff8"
+      sha256: "2a660813f3b269b4ebe916306c6bc5eeda6eff5b23be13d109a25cc7ecc85308"
       url: "https://pub.dev"
     source: hosted
-    version: "2.9.4"
+    version: "3.1.0"
   dds_service_extensions:
     dependency: transitive
     description:
       name: dds_service_extensions
-      sha256: "609d0a5d928502f7d160e4466f644474352721f4880c840ec9e8d208fff16d95"
+      sha256: c41b86e0c7c496b39d10448f1e4bcd2dbabc29c4cce2bd6d864d57a837ab94b2
       url: "https://pub.dev"
     source: hosted
-    version: "1.6.0"
+    version: "1.6.2"
   devtools_shared:
     dependency: transitive
     description:
       name: devtools_shared
-      sha256: "2fc4a90ba419b5cb59c6c7a060e94e9c4fdd993d96ef598910c572cb107f1f42"
+      sha256: "8759e5866f1144a080ce686a8a6f24d63aac0057801db5218749d6b61684d046"
       url: "https://pub.dev"
     source: hosted
-    version: "2.26.1"
+    version: "6.0.0"
   dotenv:
     dependency: transitive
     description:
@@ -325,10 +325,18 @@ packages:
     dependency: transitive
     description:
       name: dwds
-      sha256: "02fc0152c64a24b1b80f742bcbb04470c26aac7be252d50381d19899b05204e4"
+      sha256: "6a91e190e03211f051d2b8305a90c47dded572f8e4246dbff2fecada6bb795b7"
       url: "https://pub.dev"
     source: hosted
-    version: "19.0.2+1"
+    version: "22.1.0"
+  extension_discovery:
+    dependency: transitive
+    description:
+      name: extension_discovery
+      sha256: "20735622d0763865f9d94c3ecdce4441174530870760253e9d364fb4f3da8688"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.0"
   file:
     dependency: transitive
     description:
@@ -381,10 +389,10 @@ packages:
     dependency: transitive
     description:
       name: hotreloader
-      sha256: "728c0613556c1d153f7e7f4a367cffacc3f5a677d7f6497a1c2b35add4e6dacf"
+      sha256: "94ee21a60ea2836500799f3af035dc3212b1562027f1e0031c14e087f0231449"
       url: "https://pub.dev"
     source: hosted
-    version: "3.0.6"
+    version: "4.1.0"
   http:
     dependency: transitive
     description:
@@ -741,10 +749,10 @@ packages:
     dependency: transitive
     description:
       name: test
-      sha256: a20ddc0723556dc6dd56094e58ec1529196d5d7774156604cb14e8445a5a82ff
+      sha256: a1f7595805820fcc05e5c52e3a231aedd0b72972cb333e8c738a8b1239448b6f
       url: "https://pub.dev"
     source: hosted
-    version: "1.24.7"
+    version: "1.24.9"
   test_api:
     dependency: transitive
     description:
@@ -757,10 +765,10 @@ packages:
     dependency: transitive
     description:
       name: test_core
-      sha256: "96382d0bc826e260b077bb496259e58bc82e90b603ab16cd5ae95dfe1dfcba8b"
+      sha256: a757b14fc47507060a162cc2530d9a4a2f92f5100a952c7443b5cad5ef5b106a
       url: "https://pub.dev"
     source: hosted
-    version: "0.5.7"
+    version: "0.5.9"
   timing:
     dependency: transitive
     description:
@@ -805,10 +813,18 @@ packages:
     dependency: transitive
     description:
       name: vm_service
-      sha256: c538be99af830f478718b51630ec1b6bee5e74e52c8a802d328d9e71d35d2583
+      sha256: b3d56ff4341b8f182b96aceb2fa20e3dcb336b9f867bc0eafc0de10f1048e957
       url: "https://pub.dev"
     source: hosted
-    version: "11.10.0"
+    version: "13.0.0"
+  vm_service_interface:
+    dependency: transitive
+    description:
+      name: vm_service_interface
+      sha256: a1897b14842d58ca75de00ccaec6d0bdc9806b4c3560d781ef61dc6851a66f76
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   watcher:
     dependency: transitive
     description:
@@ -829,10 +845,10 @@ packages:
     dependency: "direct dev"
     description:
       name: webdev
-      sha256: "763af7cbf2094a21c2a967f382a93bfd09b7d558e6bfd3338ffc6596ae0d9c61"
+      sha256: "62f4512892b80d497bc030653b8ce0c54a4ace589c100fa70fb2720451acdee9"
       url: "https://pub.dev"
     source: hosted
-    version: "3.0.7+1"
+    version: "3.2.0"
   webkit_inspection_protocol:
     dependency: transitive
     description:
