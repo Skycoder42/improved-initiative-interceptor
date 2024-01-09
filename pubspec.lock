@@ -325,10 +325,10 @@ packages:
     dependency: transitive
     description:
       name: dwds
-      sha256: "6a91e190e03211f051d2b8305a90c47dded572f8e4246dbff2fecada6bb795b7"
+      sha256: "478291a5a20bee5f49f212e2ddb3c9cd306e9d70185244093f03dd7b41a8a88b"
       url: "https://pub.dev"
     source: hosted
-    version: "22.1.0"
+    version: "23.0.0"
   extension_discovery:
     dependency: transitive
     description:
@@ -845,10 +845,10 @@ packages:
     dependency: "direct dev"
     description:
       name: webdev
-      sha256: "62f4512892b80d497bc030653b8ce0c54a4ace589c100fa70fb2720451acdee9"
+      sha256: "3e9cf89f2dcff554d1cc39f9fafa3ecd62eff7202d506e650ac49a1d87a2d117"
       url: "https://pub.dev"
     source: hosted
-    version: "3.2.0"
+    version: "3.3.0"
   webkit_inspection_protocol:
     dependency: transitive
     description:
