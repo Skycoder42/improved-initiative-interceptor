@@ -3,6 +3,7 @@
 index.html
 main.dart.js
 packages/$sdk/dev_compiler/amd/require.js
+packages/$sdk/dev_compiler/ddc/ddc_module_loader.js
 packages/$sdk/dev_compiler/web/dart_stack_trace_mapper.js
 packages/_fe_analyzer_shared/src/parser/parser.md
 packages/analyzer/fix_data.yaml
