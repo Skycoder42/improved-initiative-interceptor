@@ -101,10 +101,10 @@ packages:
     dependency: transitive
     description:
       name: build_modules
-      sha256: "14a8e9bf4b1ae3f5d6c925c1386da59e818c68cc6f1f6fda991f7c6b74c6ebb9"
+      sha256: "66f0f746a239ff6cceba9d235a679ec70a6d9037ddddb36a24a0791a639a8486"
       url: "https://pub.dev"
     source: hosted
-    version: "5.0.4"
+    version: "5.0.7"
   build_resolvers:
     dependency: transitive
     description:
@@ -245,10 +245,10 @@ packages:
     dependency: "direct dev"
     description:
       name: custom_lint
-      sha256: f89ff83efdba7c8996e86bb3bad0b759d58f9b19ae4d0e277a386ddd8b481217
+      sha256: "445242371d91d2e24bd7b82e3583a2c05610094ba2d0575262484ad889c8f981"
       url: "https://pub.dev"
     source: hosted
-    version: "0.6.0"
+    version: "0.6.2"
   custom_lint_builder:
     dependency: transitive
     description:
