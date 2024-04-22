@@ -69,6 +69,7 @@ mocktail:packages/mocktail/
 node_preamble:packages/node_preamble/
 package_config:packages/package_config/
 path:packages/path/
+petitparser:packages/petitparser/
 pointycastle:packages/pointycastle/
 pool:packages/pool/
 protobuf:packages/protobuf/
@@ -106,6 +107,7 @@ watcher:packages/watcher/
 web_socket_channel:packages/web_socket_channel/
 webdev:packages/webdev/
 webkit_inspection_protocol:packages/webkit_inspection_protocol/
+xml:packages/xml/
 yaml:packages/yaml/
 yaml_edit:packages/yaml_edit/
 yaml_writer:packages/yaml_writer/
