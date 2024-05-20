@@ -38,7 +38,6 @@ dds:packages/dds/
 dds_service_extensions:packages/dds_service_extensions/
 devtools_shared:packages/devtools_shared/
 dotenv:packages/dotenv/
-dtd:packages/dtd/
 dwds:packages/dwds/
 extension_discovery:packages/extension_discovery/
 file:packages/file/
@@ -99,7 +98,7 @@ test_api:packages/test_api/
 test_core:packages/test_core/
 timing:packages/timing/
 typed_data:packages/typed_data/
-unified_analytics:packages/unified_analytics/
+usage:packages/usage/
 uuid:packages/uuid/
 version_manipulation:packages/version_manipulation/
 vm_service:packages/vm_service/
