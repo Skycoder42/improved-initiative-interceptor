@@ -277,4 +277,7 @@ packages/test/src/runner/browser/static/host.css
 packages/test/src/runner/browser/static/host.dart.js
 packages/test/src/runner/browser/static/index.html
 packages/test/src/runner/browser/static/run_wasm_chrome.js
+packages/vm_service/DEPENDENCIES.md
+packages/vm_service/src/DEPENDENCIES.md
+packages/vm_service/src/README.md
 styles.css
