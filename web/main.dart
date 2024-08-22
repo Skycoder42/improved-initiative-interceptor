@@ -20,7 +20,7 @@ class _Pipe<TInput, TOutput, TInit> {
       _Pipe._withParent(this, transformer);
 
   TOutput process(TInit input) => _transformer(
-        _parent != null ? _parent!.process(input) : input as TInput,
+        _parent != null ? _parent.process(input) : input as TInput,
       );
 }
 
