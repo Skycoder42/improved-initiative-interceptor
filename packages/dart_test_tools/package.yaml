@@ -1,9 +1,9 @@
 include: strict.yaml
-analyzer: 
-  plugins: 
+analyzer:
+  plugins:
     - custom_lint
-linter: 
-  rules: 
+linter:
+  rules:
     # rules from package:lint/package.yaml
     package_api_docs: true
     # custom rules

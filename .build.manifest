@@ -1,5 +1,4 @@
 .dart_tool/package_config.json
-.packages
 index.html
 main.dart.js
 packages/$sdk/dev_compiler/amd/require.js
@@ -280,4 +279,5 @@ packages/test/src/runner/browser/static/run_wasm_chrome.js
 packages/vm_service/DEPENDENCIES.md
 packages/vm_service/src/DEPENDENCIES.md
 packages/vm_service/src/README.md
+packages/web/fix_data.yaml
 styles.css
