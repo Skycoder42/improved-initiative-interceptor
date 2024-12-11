@@ -338,10 +338,10 @@ packages:
     dependency: transitive
     description:
       name: dwds
-      sha256: d0cf9d18511df6b397c40527f3fd8ddb47b7efcc501e703dd94f13cabaf82ffc
+      sha256: "4b953c4cd5ff7bbfb309c6057a9905a8490f3f876836185d02f4ac88d0b3af6b"
       url: "https://pub.dev"
     source: hosted
-    version: "24.1.0"
+    version: "24.2.0"
   extension_discovery:
     dependency: transitive
     description:
@@ -842,18 +842,18 @@ packages:
     dependency: transitive
     description:
       name: vm_service
-      sha256: "5c5f338a667b4c644744b661f309fb8080bb94b18a7e91ef1dbd343bed00ed6d"
+      sha256: "0968250880a6c5fe7edc067ed0a13d4bae1577fe2771dcf3010d52c4a9d3ca14"
       url: "https://pub.dev"
     source: hosted
-    version: "14.2.5"
+    version: "14.3.1"
   vm_service_interface:
     dependency: transitive
     description:
       name: vm_service_interface
-      sha256: f827453d9a3f8ceae04e389810da26f9b67636bdd13aa2dd9405b110c4daf59c
+      sha256: "503c92c26cf9f77d688bf8fca27fa9ec40450adbf02ec1ec5f12828ded508ac0"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.0"
+    version: "2.0.1"
   watcher:
     dependency: transitive
     description:
@@ -866,10 +866,10 @@ packages:
     dependency: transitive
     description:
       name: web
-      sha256: d43c1d6b787bf0afad444700ae7f4db8827f701bc61c255ac8d328c6f4d52062
+      sha256: cd3543bd5798f6ad290ea73d210f423502e71900302dde696f8bff84bf89a1cb
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
+    version: "1.1.0"
   web_socket:
     dependency: transitive
     description:
@@ -890,10 +890,10 @@ packages:
     dependency: "direct dev"
     description:
       name: webdev
-      sha256: "8014d5782ceeb6d6dc18ada1ed1b11b93781f15fb19f3a4fe2fade3a29636e7c"
+      sha256: f707a9708ce904aa7c9d5dfe615acdc505f31a0e5f6d34354e2081a648bdd0c8
       url: "https://pub.dev"
     source: hosted
-    version: "3.6.0"
+    version: "3.7.0"
   webkit_inspection_protocol:
     dependency: transitive
     description:
