@@ -298,10 +298,10 @@ packages:
     dependency: "direct dev"
     description:
       name: dart_test_tools
-      sha256: "5854be7c945e2ab9f11ce381a7d10ba77bc190df93e005fe05065c689c068971"
+      sha256: e8b4da402f79f3733b2a225efcb2d82d91fcdd8071629b58051e1df4df236e62
       url: "https://pub.dev"
     source: hosted
-    version: "6.0.1"
+    version: "6.0.2"
   dds:
     dependency: transitive
     description:
@@ -626,10 +626,10 @@ packages:
     dependency: transitive
     description:
       name: pubspec_parse
-      sha256: "81876843eb50dc2e1e5b151792c9a985c5ed2536914115ed04e9c8528f6647b0"
+      sha256: "0560ba233314abbed0a48a2956f7f022cce7c3e1e73df540277da7544cad4082"
       url: "https://pub.dev"
     source: hosted
-    version: "1.4.0"
+    version: "1.5.0"
   rfc_6901:
     dependency: transitive
     description:
