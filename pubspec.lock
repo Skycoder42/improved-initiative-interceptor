@@ -106,10 +106,10 @@ packages:
     dependency: transitive
     description:
       name: build_modules
-      sha256: "5d95f6a500e3cb27eebfb5d264c683ca658fcb39ef73ee403595d7a2b2955a44"
+      sha256: "0327cb2a9eefba197b63f71872c38bafe4c63b331797a43618d6c270516a6447"
       url: "https://pub.dev"
     source: hosted
-    version: "5.0.10"
+    version: "5.0.11"
   build_resolvers:
     dependency: transitive
     description:
@@ -346,10 +346,10 @@ packages:
     dependency: transitive
     description:
       name: dwds
-      sha256: "4b953c4cd5ff7bbfb309c6057a9905a8490f3f876836185d02f4ac88d0b3af6b"
+      sha256: "1c192079b0e62ae1be032340a2ed073d678ab3d5ca7ded7954d1aa2d4643df02"
       url: "https://pub.dev"
     source: hosted
-    version: "24.2.0"
+    version: "24.3.5"
   extension_discovery:
     dependency: transitive
     description:
@@ -898,10 +898,10 @@ packages:
     dependency: "direct dev"
     description:
       name: webdev
-      sha256: f707a9708ce904aa7c9d5dfe615acdc505f31a0e5f6d34354e2081a648bdd0c8
+      sha256: efcb8230c9d40c75118b57e10e59936c40f02f232b27fdfae91a9f00ca470d9d
       url: "https://pub.dev"
     source: hosted
-    version: "3.7.0"
+    version: "3.7.1"
   webkit_inspection_protocol:
     dependency: transitive
     description:
