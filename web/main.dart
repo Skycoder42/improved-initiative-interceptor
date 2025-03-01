@@ -1,48 +1,39 @@
 import 'dart:async';
 import 'dart:convert';
-import 'dart:html';
+import 'dart:js_interop';
 
-import 'package:lzma/lzma.dart';
-import 'package:messagepack/messagepack.dart';
-
-class _Pipe<TInput, TOutput, TInit> {
-  final _Pipe<dynamic, TInput, TInit>? _parent;
-  final TOutput Function(TInput) _transformer;
-
-  static _Pipe<TInit, TInit, TInit> create<TInit>() =>
-      _Pipe._withParent(null, (d) => d);
-
-  _Pipe._withParent(this._parent, this._transformer);
-
-  _Pipe<TOutput, TNext, TInit> pipe<TNext>(
-    TNext Function(TOutput data) transformer,
-  ) =>
-      _Pipe._withParent(this, transformer);
-
-  TOutput process(TInit input) => _transformer(
-        _parent != null ? _parent.process(input) : input as TInput,
-      );
-}
+import 'package:lzstring/lzstring.dart';
+import 'package:web/web.dart';
 
 Future<void> main() async {
-  final textAreaElement = (querySelector('#output')! as TextAreaElement)
+  final textAreaElement = (document.querySelector('#output')!
+      as HTMLTextAreaElement)
     ..value = 'Loading, please wait...';
 
-  final pipe = _Pipe.create<String>()
-      .pipe(base64Url.normalize)
-      .pipe(base64Url.decode)
-      .pipe(lzma.decode)
-      .pipe(Unpacker.fromList)
-      .pipe((unpacker) => unpacker.unpackString() ?? '')
-      .pipe((jsonString) => json.decode(jsonString) as Object?)
-      .pipe(const JsonEncoder.withIndent('  ').convert);
+  final query = URLSearchParams(window.location.search.toJS);
+  final source = query.get('i');
+  if (source == null) {
+    textAreaElement.value = 'No stats found in URL';
+    return;
+  }
 
-  final s = UrlSearchParams(window.location.search).get('s');
-  final decodedStats = await Future(() => pipe.process(s ?? ''));
+  try {
+    final decodedStats =
+        await LZString.decompressFromEncodedURIComponent(source);
+    if (decodedStats == null) {
+      textAreaElement.value = 'Failed to decode stats';
+      return;
+    }
 
-  textAreaElement
-    ..value = decodedStats
-    ..select();
+    final prettyStats =
+        const JsonEncoder.withIndent('  ').convert(json.decode(decodedStats));
 
-  await Future(() => textAreaElement.scrollTop = 0);
+    textAreaElement
+      ..value = prettyStats
+      ..select();
+
+    await Future(() => textAreaElement.scrollTop = 0);
+  } on Exception catch (e, s) {
+    textAreaElement.value = '$e\n$s';
+  }
 }
