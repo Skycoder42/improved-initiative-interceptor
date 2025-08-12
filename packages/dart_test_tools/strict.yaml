@@ -49,7 +49,6 @@ linter:
     implicit_reopen: true
     matching_super_parameters: true
     no_literal_bool_comparisons: true
-    use_truncating_division: true
-    strict_top_level_inference: true
-    unnecessary_underscores: true
+    unnecessary_ignore: true
+    use_null_aware_elements: true
     # new rules
