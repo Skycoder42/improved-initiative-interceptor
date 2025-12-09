@@ -1,0 +1,22 @@
+exports:
+  - name: 'aur'
+    exports: src/aur/**.dart
+  - name: 'builders'
+    exports: src/builders/**.dart
+  - name: 'cider'
+    exports: src/cider/**.dart
+  - name: 'test'
+    exports:
+      - src/test/**.dart
+      - '!**.js.dart'
+      - uri: src/test/test_env.dart
+        if:
+          dart.library.js: src/test/test_env.js.dart
+  - name: 'tools'
+    exports: src/tools/**.dart
+  - name: ''
+    exports:
+      - '*.dart'
+      - '!dart_test_tools.dart'
+      - '!main.dart'
+      - '!builders.dart'
