@@ -1,18 +1,20 @@
-include:
-  - package:lints/recommended.yaml
-  - package:flutter_lints/flutter.yaml
-  - package:lint/strict.yaml
-plugins:
-  dart_test_tools: ^7.0.0
+include: package:lint/strict.yaml
 analyzer:
   language:
     strict-casts: true
     strict-inference: true
     strict-raw-types: true
-  errors:
-    included_file_warning: ignore
+  plugins:
+    - custom_lint
 linter:
   rules:
+    # rules from package:lints/recommended.yaml
+    avoid_renaming_method_parameters: true
+    library_private_types_in_public_api: true
+    prefer_adjacent_string_concatenation: true
+    unnecessary_constructor_name: true
+    # rules from package:flutter_lints/flutter.yaml
+    use_key_in_widget_constructors: true
     # custom rules
     always_use_package_imports: false # overwritten
     avoid_classes_with_only_static_members: false # overwritten
@@ -50,10 +52,3 @@ linter:
     unnecessary_ignore: true
     use_null_aware_elements: true
     # new rules
-    remove_deprecations_in_breaking_versions: true
-    switch_on_type: true
-    unnecessary_unawaited: true
-    avoid_equals_and_hash_code_on_mutable_classes: true
-    avoid_null_checks_in_equality_operators: true
-    document_ignores: true
-    prefer_asserts_with_message: true
