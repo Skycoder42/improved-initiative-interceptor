@@ -29,6 +29,7 @@ linter:
     - library_private_types_in_public_api
     - no_leading_underscores_for_library_prefixes
     - no_leading_underscores_for_local_identifiers
+    - no_wildcard_variable_uses
     - null_closures
     - overridden_fields
     - package_names
@@ -65,5 +66,6 @@ linter:
     - unnecessary_to_list_in_spreads
     - unnecessary_underscores
     - use_function_type_syntax_for_parameters
+    - use_null_aware_elements
     - use_rethrow_when_possible
     - use_super_parameters

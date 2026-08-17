@@ -16,7 +16,6 @@ packages/dart_test_tools/package.yaml
 packages/dart_test_tools/strict.yaml
 packages/dwds/data/README.md
 packages/dwds/shared/README.md
-packages/dwds/src/injected/client.js
 packages/flutter_lints/flutter.yaml
 packages/intl/src/data/dates/README.txt
 packages/intl/src/data/dates/patterns/af.json
